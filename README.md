@@ -1,131 +1,121 @@
-👋 Hi, I'm Jingyu — Automotive OS & Embedded Systems Engineer
+# 🚗 Jingyu — Automotive OS & Embedded Systems Engineer
 
-I am a systems-oriented engineer based in Canada, specializing in embedded C, Android Automotive OS internals, and low-level system software.
-My background spans BSP development at LG Electronics, full-stack engineering in a startup, and IT security infrastructure for automotive manufacturing plants at LG CNS America.
+### *Embedded C · AAOS Internals · Linux & System-Level Engineering*
 
-Now, I am focused on building expertise in AAOS platform internals, HAL/driver development, and system-level performance engineering for next-generation in-vehicle systems.
+---
 
-🔧 Technical Domains I Work In
-Embedded & System Programming
+## 🔥 About Me
 
-C programming, memory model, pointers, low-level data structures
+I’m an engineer focused on **Android Automotive OS**, **embedded C**, and **low-level Linux systems**.
+My background spans:
 
-Multithreading, concurrency, process scheduling, synchronization
+* **LG Electronics (BSP · Embedded Linux)**
+* **Startup full-stack engineering**
+* **LG CNS America – automotive plant security infrastructure**
 
-Linux kernel fundamentals & driver concepts
+My current goal is to grow as a **System / Embedded / AAOS Engineer**, contributing to real vehicle platforms.
 
-Automotive OS (AAOS)
+---
 
-InputFlinger, SurfaceFlinger, AudioFlinger
+## 🚀 What I’m Working On (2025)
 
-Android HAL architecture & Binder IPC
+* Deep-diving **AAOS internals** — InputFlinger, SurfaceFlinger, AudioFlinger
+* Building **HAL mock modules** & Binder IPC demos
+* Practicing **algorithms + system programming** in pure C
+* Writing structured study repos:
 
-Device bring-up, system services, USB & power management
+  * `automotive-aaos-notes`
+  * `embedded-c-labs`
+  * `os-systems-playground`
 
-Performance profiling for embedded Android environments
+---
 
-Security & Infrastructure
+## 🧠 Technical Focus Areas
 
-Endpoint security for manufacturing plants
+### **🔧 Embedded & System Programming**
 
-Access control, device hardening, policy enforcement
+* C, memory, pointers, data structures
+* Multi-threading, scheduling, concurrency
+* Linux kernel basics & driver concepts
 
-OT/IT system reliability & compliance in automotive factories
+### **🚗 Android Automotive OS**
 
-💼 Experience Snapshot
-🔹 LG CNS America — Security Infrastructure Engineer (Automotive)
+* Flinger pipelines (Input / Display / Audio)
+* HAL development & AIDL/Binder IPC
+* USB, PMIC, power management flows
+* System services & boot process
 
-2024 – Present | Windsor, Canada
+### **🔐 Security & Reliability**
 
-Managing security infrastructure for large-scale automotive manufacturing
+* Endpoint hardening for manufacturing plants
+* OT/IT integration & access control
+* Securing factory environments for automotive production
 
-Supporting plant production systems and factory endpoints
+---
 
-Coordinating with engineering teams at NextStar Energy for system reliability and compliance
+## 💼 Experience Summary
 
-Exposure to in-vehicle system requirements, safety, and security constraints
+### **🔹 LG CNS America — Security Infrastructure Engineer (Automotive)**
 
-🔹 Nemcco — Full-Stack Developer (Startup)
+*2024–Present · Windsor, Canada*
 
-2023 – 2024
+* Managing security infra for large-scale automotive manufacturing
+* Supporting critical production endpoints
+* Working with NextStar Energy engineering for system reliability & compliance
 
-Built full-stack features using React, Node.js, Express, and REST APIs
+---
 
-Optimized backend performance and data flows
+### **🔹 Nemcco — Full-Stack Developer**
 
-Delivered rapid iterations in a fast-paced startup environment
+*2023–2024*
 
-Strengthened understanding of distributed and client-server system behavior
+* Built scalable APIs and web UIs (React + Node.js)
+* Improved backend performance & data flow
+* Owned full features from design → deploy → iteration
 
-🔹 LG Electronics — BSP / Embedded Software Developer
+---
 
-Before Immigration | South Korea
+### **🔹 LG Electronics — BSP / Embedded Engineer**
 
-Developed BSP components for Android/Linux-based systems
+*Before Immigration · South Korea*
 
-Worked on USB subsystem, PMIC integration, and power management
+* Developed BSP modules for Android/Linux devices
+* USB subsystem, PMIC integration, power management
+* Board bring-up & kernel-level debugging
+* Strengthened embedded C and hardware/software integration skills
 
-Experience with device bring-up, kernel-level debugging, and hardware/software integration
+---
 
-Built strong foundations in embedded C and low-level architecture
+## 🛠 Tech Stack
 
-📚 Current Projects & Learning (2025)
+**Languages:** C, Java, C#, JavaScript, TypeScript, Python
+**Embedded/System:** Embedded Linux, BSP, HAL, drivers
+**AAOS:** HAL APIs, Flinger subsystems, USB/power pipelines
+**Security:** Endpoint protection, device hardening, factory OT security
+**Tools:** Linux CLI, Git, Docker, AOSP build tools, VSCode, IntelliJ
 
-Studying AAOS internals (InputFlinger, SurfaceFlinger, AudioFlinger, USB pipelines)
+---
 
-Practicing algorithms and system-level skills in pure C
+## 🎯 Direction
 
-Exploring Binder IPC, HAL mock modules, USB enumeration, and boot-process internals
+I’m preparing for roles in the **GM AAOS Team** and similar automotive embedded groups.
+My focus is on:
 
-Building long-term repositories:
+* Building **robust, deterministic system software**
+* Understanding **AAOS from kernel → HAL → framework → app**
+* Creating **high-quality engineering repositories** that reflect real automotive workflows
 
-automotive-aaos-notes
+---
 
-embedded-c-labs
+## 📌 Selected Projects
 
-os-systems-playground
+* **johnabbott-2023-karrot** — C# marketplace app
+* **smartbank simulator** — banking logic implementation
+* **springboot-foodapp** — Java backend API
+* (More embedded + AAOS projects coming in 2025)
 
-🛠 Tech Stack & Tools
+---
 
-Languages:
-C, Java, C#, JavaScript, TypeScript, Python
+## 📫 Contact
 
-Embedded / System:
-Embedded Linux, BSP, HAL, drivers, cross-compilation, kernel basics
-
-Android Automotive:
-HAL APIs, Flinger subsystems, USB/power pipelines, AOSP tools
-
-Security:
-Endpoint protection, device hardening, access control, factory OT security
-
-Tools:
-Linux CLI, Git, Docker, AOSP build tools, VSCode, IntelliJ, Rider
-
-🎯 Career Direction
-
-My goal is to grow into an Automotive OS / Embedded Systems Engineer, contributing to:
-
-AAOS platform components
-
-HAL/driver development
-
-real-time & performance-critical embedded systems
-
-robust automotive-grade software
-
-Preparing for future roles in the GM AAOS team and broader automotive embedded software engineering.
-
-📌 Featured Legacy Projects
-
-johnabbott-2023-karrot — C# marketplace application
-
-johnabbott-2023-smartbank — banking logic simulator
-
-springboot-foodapp — Java Spring Boot API
-
-More embedded + AAOS focused repositories will be added throughout 2025.
-
-📫 Contact
-
-Feel free to reach out for collaboration, research discussion, or AAOS knowledge exchange.
+Let’s connect about AAOS, embedded systems, or collaboration opportunities.
