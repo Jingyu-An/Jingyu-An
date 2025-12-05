@@ -1,155 +1,174 @@
-# 🚗 Jingyu — Automotive OS & Embedded Systems Engineer
+# 🚗 Jingyu — Embedded Linux & Automotive BSP Engineer
 
-### *Embedded C · AAOS Internals · BSP USB Engineering · 3D Web Systems*
+### *Embedded C · Linux Kernel · Device Drivers · AAOS HAL/BSP · USB/PMIC Integration*
 
 ---
 
 ## 🔥 About Me
 
-I’m a systems-focused engineer with experience spanning **embedded BSP development**, **Android Automotive OS internals**, **3D web systems**, and **automotive manufacturing infrastructure security**.
+I am an engineer specializing in **Embedded Linux**, **Android Automotive OS BSP**, and **low-level system software**.
+My experience spans **kernel-level USB subsystem development**, **SoC bring-up**, **power & PMIC integration**, and **automotive manufacturing system security**.
 
-My engineering foundation was built at **LG Electronics**, where I developed USB BSP features for flagship devices such as the **G5, G6, and V20** — including **the industry’s first USB-C implementation**, **moisture detection**, **USB authentication**, and **USB-driven auxiliary display support**.
+I began my embedded career at **LG Electronics**, developing core USB BSP features for flagship devices including **G5, G6, and V20**.
+My work included:
 
-Since then, I’ve expanded into **full-stack + 3D rendering systems**, and currently support **secure automotive plant environments**.
+* **Industry’s first commercial USB-C implementation**
+* **Moisture detection & port-protection algorithm**
+* **USB accessory authentication**
+* **USB communication for V20 auxiliary display**
+* **Kernel bring-up, PMIC integration, and driver-level debugging**
 
-I’m passionate about building **reliable, deterministic system software** that runs close to hardware.
-
----
-
-## 🚀 Current Focus Areas (2025)
-
-* Deep-diving **AAOS internals**: InputFlinger, SurfaceFlinger, AudioFlinger
-* Practicing **system-level C**: memory, concurrency, data structures
-* Exploring **USB subsystem flows (enumeration, HAL, power, PD)**
-* Building engineering repositories:
-
-  * `embedded-c-labs`
-  * `automotive-aaos-notes`
-  * `os-systems-playground`
+Today, I’m building deep expertise in **AAOS BSP**, **HAL/driver integration**, and **Embedded Linux platform engineering** for next-generation automotive systems.
 
 ---
 
-## 🧠 Technical Strengths
+## 🚀 Current Technical Focus (AAOS BSP / Embedded Linux)
 
-### 🔧 **Embedded & System Programming**
-
-* C, pointers, memory model, low-level data structure design
-* Multithreading, scheduling, synchronization
-* Linux kernel basics, drivers, boot process, debug workflow
-
----
-
-### 🚗 **Android Automotive OS (AAOS)**
-
-* Flinger subsystems (Input / Display / Audio)
-* AIDL, HAL, Binder IPC
-* System service flows & power management
-* USB/PMIC integration and device state handling
+* **AAOS HAL → Driver → Kernel flow** 이해 및 실습
+* **SoC bring-up fundamentals**: clocks, GPIO, regulators, device tree
+* **Linux kernel driver 모델 학습**: probe/bind, power management, sysfs
+* **USB subsystem deep-dive**: Type-C, PD, enumeration, gadget/host stack
+* **PMIC & charging path 분석**
+* **Binder IPC & AIDL 기반 HAL 설계 패턴 연구**
+* **System-level C 언어 역량 강화 (포인터, 메모리, 동기화 구조)**
 
 ---
 
-### 🔌 **BSP USB Engineering (LG Electronics)**
+## 🧠 Core Technical Strengths (BSP-Oriented)
 
-Worked on flagship models **G5, G6, V20** with responsibilities including:
+### 🔧 **Embedded C / System Programming**
 
-* **World’s first commercial USB-C integration on G5**
-* **Moisture detection & protection logic** (USB port water sensing + shutdown policy)
-* **USB authentication for accessories & peripherals**
-* **Auxiliary Display via USB communication** (V20 Second Screen)
-* **Device bring-up, kernel-level debugging, and PMIC/USB driver integration**
-
-These experiences shaped my strong foundation in **embedded C**, **hardware–software interfacing**, and **system-level reliability**.
+* Memory model, concurrency, synchronization primitives
+* Low-level data structures & pointer-heavy logic
+* Multithreading, scheduling, lock-free patterns
+* Debugging using kernel logs, tracepoints, adb/dmesg/sysfs
 
 ---
 
-### 🌐 **3D Web Systems (Nemcco)**
+### 🐧 **Linux Kernel & BSP Engineering**
 
-Built a large-scale **3D mining-field visualization platform** using:
-
-* **React + React Three Fiber (R3F)** for real-time 3D rendering
-* **Three.js** scene optimization & interaction logic
-* **Node.js + Express (MERN)** for backend data pipelines
-* **3D mining site simulation** with dynamic state updates and user interaction
-
-This strengthened my **rendering pipeline**, **real-time system**, and **performance tuning** experience.
+* Kernel driver fundamentals (probe/remove, IRQ, power states)
+* Device Tree (DT) bring-up for board components
+* PMIC integration & regulator configuration
+* USB/PD stack, type-C role switching, descriptor handling
+* Board bring-up, clock/reset configuration
+* HAL ↔ Driver interface design
 
 ---
 
-### 🔐 **Security & Manufacturing Infrastructure**
+### 🚗 **Android Automotive OS (AAOS) Platform**
 
-* Endpoint hardening and access control in automotive plant environments
-* OT/IT integration & secure device lifecycle management
-* Ensuring compliance, reliability, and safe operation of production systems
+* HAL development & AIDL/Binder IPC flow
+* System services: boot/init → service manager → HAL → kernel
+* Flinger subsystems: Input, Display, Audio (pipeline 이해 중심)
+* Automotive constraints: determinism, reliability, thermal/power control
 
 ---
 
-## 💼 Experience Summary
+### 🔌 **LG Electronics — USB BSP Expertise (G5, G6, V20)**
+
+* Implemented **first commercial USB-C stack**
+* Designed **moisture detection algorithm + shutdown policies**
+* Developed **USB authentication** for accessories
+* Built **USB-based auxiliary display communication** (V20)
+* Debugged **PD negotiation**, **VBUS events**, **PMIC switching paths**
+* Performed kernel-level debugging, logging, timing analysis
+
+This experience solidified my strengths in **hardware–software interfacing**, **kernel engineering**, and **system-level robustness**.
+
+---
+
+### 🔐 **Automotive Infrastructure Security (LG CNS America)**
+
+Although not BSP-related, this experience strengthened:
+
+* Secure system operation in factory environments
+* Endpoint hardening for production devices
+* OT/IT reliability awareness required for safety-critical systems
+
+---
+
+## 💼 Professional Experience
 
 ### 🔹 **LG CNS America — Security Infrastructure Engineer (Automotive)**
 
 *2024–Present | Windsor, Canada*
 
-* Managing secure infrastructure for large-scale automotive manufacturing
-* Supporting production-critical endpoints and factory systems
-* Hardening devices and enforcing operational security policies
+* Managing secure infrastructure for automotive manufacturing
+* Maintaining stable OT/IT systems for factory operations
+* Supporting production-critical endpoints
 
 ---
 
-### 🔹 **Nemcco — Full-Stack & 3D Web Developer**
+### 🔹 **LG Electronics — BSP / Embedded USB Engineer**
+
+*South Korea*
+
+* USB subsystem owner for **G5, G6, V20**
+* Kernel bring-up, PMIC/USB driver integration
+* Feature delivery under tight hardware schedules
+* Close collaboration with HW/PMIC teams
+
+---
+
+### 🔹 **Nemcco — 3D Web / MERN Developer (Secondary Skillset)**
 
 *2023–2024*
 
-* Developed a **3D mining-field web engine** (R3F + Three.js + MERN)
-* Built real-time map rendering, camera controls, and performance-critical logic
-* Designed backend APIs for geodata and equipment simulation
+* Built **3D Mining Field Visualization Engine** (React Three Fiber + Three.js)
+* Designed MERN backend for real-time geodata & simulation
+* (Maintained as secondary experience — core focus는 embedded)
 
 ---
 
-### 🔹 **LG Electronics — BSP / Embedded USB Developer**
+## 🛠 Tech Stack (BSP-Relevant)
 
-*Before Immigration · South Korea*
+**Languages:**
+C, Python, Java (for AAOS), Bash
 
-* USB subsystem owner for **G5, G6, V20**
-* Developed first USB-C stack, accessory authentication, moisture detection, and USB-driven secondary display
-* Integrated PMIC, power delivery, and USB HAL
-* Conducted kernel debugging, board bring-up, and HW/SW validation
+**Embedded / Kernel:**
+Linux device drivers, USB/PD, PMIC, regulators, GPIO, I2C/SPI, device tree
 
----
+**AAOS Platform:**
+HAL, AIDL, Binder IPC, system services, vendor layers
 
-## 🛠 Tech Stack
+**Debug Tools:**
+adb, dmesg, logcat, perf, ftrace, sysfs, kernel logs
 
-**Languages:** C, Java, C#, JavaScript, TypeScript, Python
-**Embedded:** BSP, USB/PMIC, HAL, drivers, kernel basics
-**AAOS:** AIDL, Binder IPC, Flinger subsystems, USB flows
-**3D/Web:** React, React Three Fiber, Three.js, Node.js, Express, MongoDB
-**Security:** Endpoint hardening, access control, plant OT security
-**Tools:** Linux CLI, Git, Docker, AOSP tools, VSCode, IntelliJ, Rider
+**3D/Web (Secondary):**
+React, React Three Fiber, Three.js, Node.js
 
 ---
 
-## 🎯 Engineering Direction
+## 🎯 Career Direction — AAOS BSP / Embedded Linux Engineer
 
-I aim to build a career centered on **automotive OS, embedded platforms, and system-level engineering**, focusing on:
+I am focused on building a career in **automotive OS platform engineering**, specifically:
 
-* Low-level platform components
-* HAL/driver integration
-* USB subsystem engineering
-* Real-time / performance-critical embedded systems
+* Kernel & BSP driver development
+* AAOS HAL integration
+* Hardware abstraction for automotive SoC
+* Power/USB/sensor subsystems
+* Reliable low-level platform software
+
+My long-term goal is to contribute to **embedded Linux–based automotive platforms** at scale.
 
 ---
 
 ## 📌 Projects
 
-* **3D Mining Field Web Engine (R3F + MERN)**
-* **USB-C / PMIC / Moisture Detection BSP Modules (LG Electronics)**
-* **smartbank simulator** — backend logic modeling
-* **karrot clone** — C# marketplace app
-* **springboot-foodapp** — Java backend API
+### Embedded / BSP
 
-More embedded + AAOS-focused repositories coming in 2025.
+* **USB-C / PMIC / Moisture Detection BSP Modules**
+* **Kernel-level USB debug tools & logs**
+* **AAOS HAL practice projects** (work in progress)
+* **embedded-c-labs** — system programming exercises
+
+### 3D/Web (Secondary Portfolio)
+
+* **3D Mining Field Engine (R3F + MERN)**
 
 ---
 
 ## 📫 Contact
 
-Happy to connect about embedded systems, AAOS, USB engineering, or 3D web technologies.
+Happy to discuss Linux BSP, AAOS HAL development, embedded systems, or platform engineering.
