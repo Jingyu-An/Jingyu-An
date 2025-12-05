@@ -1,50 +1,59 @@
-# 👋 Hi, I'm Jingyu — Software Engineer focusing on System Programming, AAOS, and IT Security
+# 👋 Hi, I'm Jingyu — Embedded Developer, System Programmer, and IT Security Engineer
 
-I'm a software engineer based in Canada, currently working at **LG CNS America** as part of the **IT Security** team.  
-Previously, I worked as a **Full-Stack Developer at Nemcco (2023–2024)**, building production-ready web applications and backend services for a fast-growing startup.
+I'm a software engineer based in Canada with experience across **embedded systems**, **full-stack development**, and **IT security**.  
+My background includes **BSP (Board Support Package) development at LG Electronics**, full-stack engineering in a fast-moving startup, and currently **IT security operations for manufacturing plants through LG CNS America**, supporting NextStar Energy’s infrastructure.
 
-My current personal focus is deepening my fundamentals in **C programming**, **Android Automotive OS internals**, and **embedded/system-level concepts**.
+I'm now deepening my expertise in **C programming**, **AAOS internals**, and **system-level engineering**, aiming to grow into automotive OS and embedded platforms.
 
 ---
 
 ## 🔧 Core Technical Focus (2025)
-- **C programming** — pointers, memory, data structures, system calls  
-- **System fundamentals** — processes, scheduling, IPC, OS internals  
-- **AAOS (Android Automotive OS)** — HAL, Input/Display/Audio pipelines  
-- **Security concepts** — endpoint security, infrastructure protection, access control  
+- **C programming** — memory, pointers, data structures, system-level debugging  
+- **Embedded systems** — BSP, boot-process, HAL, device drivers  
+- **AAOS (Android Automotive OS)** — Input / Display / Audio pipelines, HAL  
+- **System fundamentals** — processes, threads, scheduling, IPC  
+- **Security engineering** — infrastructure hardening, endpoint security, access control  
 - **Algorithm practice in C**
 
 ---
 
 ## 💼 Professional Experience
 
-### **🔹 LG CNS America — IT Security Engineer**
-**2024 – Present | Canada (Windsor)**  
-- Supporting enterprise infrastructure security for LG’s North American operations  
-- Managing device security, endpoint systems, and access policies  
-- Coordinating with global teams to maintain compliance and operational stability
+### 🔹 **LG CNS America — IT Security Engineer & Security Infrastructure Partner for NextStar Energy**
+**2024 – Present | Windsor, Canada**  
+- Managing security infrastructure for a large-scale automotive manufacturing environment  
+- Overseeing endpoint security, access management, and factory systems compliance  
+- Supporting plant operations with secure infrastructure and policy enforcement  
+- Collaborating with engineering and IT teams across regions
 
-### **🔹 Nemcco — Full-Stack Developer**
+---
+
+### 🔹 **Nemcco — Full-Stack Developer**
 **May 2023 – June 2024 | Startup**  
-- Developed web applications end-to-end using JavaScript/Node/React and backend APIs  
-- Improved system performance and reliability through refactoring and database optimization  
-- Delivered features rapidly in a fast-paced startup environment  
-- Collaborated directly with founders, designers, and engineers
+- Built production web applications using React, Node.js, Express, and REST APIs  
+- Optimized backend logic, queries, and performance for higher throughput  
+- Developed features rapidly in a startup environment and worked directly with stakeholders  
+- Delivered full-stack features from design → implementation → deployment
 
-### **🔹 John Abbott College (Projects)**
-**2022–2023 | Canada**  
-- Completed multiple academic projects in Java, JavaScript, HTML/CSS, and C#  
-- These repositories remain public/archived to show my learning history
+---
+
+### 🔹 **LG Electronics — BSP / Embedded Software Developer**
+**Prior to immigration | South Korea**  
+- Worked on **Board Support Package (BSP)** development for embedded Linux systems  
+- Experience with device bring-up, board configuration, and low-level hardware support  
+- Contributed to device drivers, kernel modules, and system-level debugging  
+- Strengthened fundamentals in embedded C and hardware/software integration
 
 ---
 
 ## 📚 Current Learning & Projects
-- Studying **AAOS internals** and system service flows  
-- Practicing algorithms & data structures in **pure C**  
-- Exploring **USB, HAL, Binder IPC**, and Android low-level components  
-- Building practice repositories such as:  
+- Deep dive into **AAOS internals** (InputFlinger, SurfaceFlinger, AudioFlinger)  
+- Practicing algorithms & system-level skills in **pure C**  
+- Exploring USB, HAL, Binder IPC, and Android low-level components  
+- Building long-term study repositories:  
   - `aaos-c-study`  
   - `systems-c-playground`  
+  - `embedded-c-exercises`  
 
 ---
 
@@ -53,31 +62,37 @@ My current personal focus is deepening my fundamentals in **C programming**, **A
 **Languages:**  
 C, Java, C#, JavaScript, TypeScript, Python  
 
-**Frameworks / Tools:**  
-Spring Boot, .NET, React, Node.js, Linux, Git, Docker, VSCode, IntelliJ, Rider  
+**Embedded / System Skills:**  
+BSP development, embedded Linux, device drivers, kernel concepts  
+
+**Web & Application:**  
+Spring Boot, .NET, React, Node.js  
 
 **Security:**  
-Endpoint security, user access management, device hardening, IT policy compliance  
+Endpoint security, access control, device hardening, infrastructure protection  
+
+**Tools:**  
+Linux, Git, Docker, VSCode, IntelliJ, Rider, Android AOSP tools  
 
 ---
 
 ## 🎯 Goals for 2025
-- Build strong AAOS and embedded systems fundamentals  
-- Contribute to system-level or automotive open-source projects  
-- Strengthen my portfolio in **C, Android internals, and system-level engineering**  
-- Prepare for future opportunities in **U.S. system, embedded, or automotive engineering**
+- Build advanced AAOS & embedded systems study repositories  
+- Improve OS-level and kernel-level understanding through C projects  
+- Contribute to automotive / embedded open-source projects  
+- Grow toward a system/embedded engineering role in North America
 
 ---
 
-## 📌 Featured Projects (More coming soon)
-- 🔹 johnabbott-2023-karrot — C# e-commerce clone  
-- 🔹 johnabbott-2023-smartbank — Banking logic simulator  
+## 📌 Featured Projects
+- 🔹 johnabbott-2023-karrot — C# marketplace clone  
+- 🔹 johnabbott-2023-smartbank — banking logic simulator  
 - 🔹 johnabbott-2022-springboot-foodapp — Java Spring Boot API  
-- 🔹 johnabbott-2022-react — Frontend study  
-- 🔹 New 2025 repositories (AAOS & C) coming soon
+- 🔹 johnabbott-2023-pawsome — frontend project  
+- More system-level repos coming in 2025!
 
 ---
 
 ## 📫 Contact
-Feel free to connect or collaborate!
+Feel free to reach out or collaborate!
 
